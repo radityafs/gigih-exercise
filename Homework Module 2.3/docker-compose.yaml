@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  module_2_3:
+    image: "module_2_3:latest"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"

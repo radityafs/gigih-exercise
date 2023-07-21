@@ -1,0 +1,22 @@
+{
+  "name": "homework-module-2.3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "data:seed": "node seeder.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "nodemon": "^3.0.1",
+    "lodash": "^4.17.21"
+  }
+}
